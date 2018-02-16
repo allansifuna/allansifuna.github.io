@@ -268,9 +268,7 @@ header.masthead h2 {
 
 .floating-label-form-group {
   position: relative;
-  border: 2px solid #e9ecef;
-  border-radius: 6px;
-}
+ }
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -280,7 +278,7 @@ header.masthead h2 {
   padding-right: 0;
   padding-left: 0;
   resize: none;
-  border:2px solid green;
+  border:  1px solid rgb(24, 188, 156);
   border-radius: 6px;
   background: none;
   box-shadow: none !important;
