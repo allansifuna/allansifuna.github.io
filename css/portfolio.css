@@ -411,3 +411,8 @@ a:focus, a:hover, a:active {
 iframe{
   width:250px !important;
 }
+.img-circles{
+  border-radius: 50%;
+  filter: grayscale(200%);
+  height: 150px;
+}
