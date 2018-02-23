@@ -12,6 +12,15 @@ h6 {
   font-family: 'Montserrat';
 }
 
+hr.star-light-dark{
+  max-width: 10rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -22,7 +31,7 @@ hr.star-dark {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
-
+hr.star-light-dark:after,
 hr.star-light:after,
 hr.star-dark:after {
   position: relative;
@@ -34,6 +43,14 @@ hr.star-dark:after {
   font-size: 2em;
 }
 
+hr.star-light-dark{
+   border-color: #fff;
+}
+hr.star-light-dark:after{
+  color: #fff;
+  background-color: #2C3E50;
+
+}
 hr.star-light {
   border-color: #fff;
 }
@@ -51,7 +68,6 @@ hr.star-dark:after {
   color: #2C3E50;
   background-color: white;
 }
-
 section {
   padding: 6rem 0;
 }
@@ -162,9 +178,9 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
+    color: rgb(24, 188, 156);
   }
 }
-
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
